@@ -20,7 +20,7 @@ on `<head>` put:
 ```
 that will import the extension of the graphic (Chart) from cdn cloud, without installation
 
-# 🤔*how it works?*🤔
+# 🤔 *how it works?* 🤔
 he get the data from a API with:
 ```javascript
 const res = await fetch(`https://covid19-brazil-api.now.sh/api/report/v1`)
