@@ -1,0 +1,35 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+button {
+    border-radius: 45px;
+    width: 200px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+canvas {
+    max-width: 40vw;
+    max-height: 60vh;
+    transform: translateX(-50%);
+    margin-left: 50%;
+}
+h1 {
+    text-align: center;
+    margin: 24px 32px;
+    font-family: sans-serif;
+    border: 1px solid rgba(0,0,0,0.2);
+    border-radius: 16px;
+    padding: 30px;
+    transition: all .7;
+}
+h1:hover {
+    transform: translateY(-20px);
+    box-shadow: 5px 5px 5px black;
+}
+@media (max-width: 900px) {
+    canvas {
+        max-width: 90vw;
+        max-height: 90vh;
+    }
+}
